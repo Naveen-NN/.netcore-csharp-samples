@@ -57,6 +57,8 @@ namespace DataEncapsulationExample
             AccountHistory history = new AccountHistory();  
             return history.GetAccountHistory(allTransactions);
         }
+
+        public virtual void PerformMonthEndTransactions(){ }
         private void PerformTransaction(decimal amount, DateTime date, string note)
         {
             Transaction t = new Transaction(amount, date, note);

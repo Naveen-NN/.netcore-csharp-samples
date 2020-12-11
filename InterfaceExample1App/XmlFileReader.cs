@@ -6,7 +6,9 @@ namespace InterfaceExample1App
     {
         public List<IStudent> Read(string path)
         {
-            return null;
+           var students  = new List<IStudent>();  
+            //TODO: Implementation 
+            return students;
         }
     }
 }

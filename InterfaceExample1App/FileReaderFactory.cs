@@ -4,7 +4,7 @@ namespace InterfaceExample1App
     {
         public static IFileReader GetFileReader()
         {
-            string type = "SqlDb";
+            string type = string.Empty;
 
             IFileReader reader = null;
 
